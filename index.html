@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery Website</title>
+    <link rel="icon" type="favicon/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Online Food Delivery Website</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    
+    <form action="" id="search-form">
+        <input type="search" placeholder="You can search here" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+ 
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Burger</h3>
+                        <p>A burger is a patty of ground beef grilled and placed between two halves of a bun and
+                        Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/Burger slide1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Pizza</h3>
+                        <p>Pizza is an Italian dish that consists of a flat, round base of leavened
+                        wheat-based dough topped with tomatoes, cheese, and other ingredients.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pizza slide2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>chowmein</h3>
+                        <p>In American Chinese cuisine, it is a stir-fried dish consisting of noodles, meat
+                        (chicken being most common but pork, beef, shrimp or tofu sometimes being substituted), onions and celery.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/choming slide.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular indian dishes</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish1.jpg" alt="">
+                <h3>Special Thali</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>200</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish2.jpg" alt="">
+                <h3>Fride Rice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>100</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish3.jpg" alt="">
+                <h3>Choole Bhutore</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish4.jpg" alt="">
+                <h3>Paani Puri</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>20</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish5.jpg" alt="">
+                <h3>Litti Chokha</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>60</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <img src="images/dish6.jpeg" alt="">
+                <h3>Dahi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>50</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why Choose Indian food?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/delicious.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>delicious food</h3>
+                <p>It tastes like bread tomato and cheese, chewy, moist, slightly acidic, and sharp.
+                 Then once you apply toppings, that changes it. Ham and pineapple, adds salty, sweet and juicy.</p>
+                
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+
+                    <a href="#" class="btn">learn more</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading">Today's Specials</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Gulab jamun</h3>
+                    <p>Gulab jamun is a traditional Indian dessert made from milk solids, flour, and ghee.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Rasgulla</h3> 
+                    <p>Rasgulla is a milk-based dessert that is popular in the eastern part of South Asia.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">250</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Rasmalai</h3>
+                    <p>Ras malai is a traditional Indian dessert made from cardamom-flavored paneer cheese, sugar, milk, and white cream.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">150</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a> 
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Kalakand</h3>
+                    <p>Kalakand is a sweet cheese confection from India.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">250</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Laddu</h3>
+                    <p>Laddu, also known as ladoo, is a traditional Indian dessert,
+                     It's a spherical sweet made from various ingredients.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">180</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Jalebi</h3>
+                    <p>Jalebi is a traditional Indian dessert that is popular in South and Western Asia,
+                     other names, including: Jilapi, Zulbia, Mushabak, Zalabia.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">200</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/rahul.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Rahul</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>i have purchase jalebi, it is tasty and expensive.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Amarjeet</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>i have purchase rasgulla, it is very sweet and tasty.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/vivek.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Vivek</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>i have puchase rasmalai, it is very sweet and very expensive.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/review5.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Subham</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>i have purchase julab jamun, it is very tasty.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+
+        <form action="">
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+
+            </div>
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+
+            </div>
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+
+            </div>
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Delhi</a>
+                <a href="#">Bihar</a>
+                <a href="#">Punjab</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Bangalore</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><img src="images/icon-phone.svg" alt="">+918709667904</a>
+                <a href="#"><img src="images/icon-email.svg" alt="">rahul123@gmail.com</a>
+                <a href="#"><img src="images/icon-location.svg" alt="">Punjab, Phaghwara-144402</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">review</a>
+                <a href="#order">order</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="credit">developed by <span>Rahul/ front-end developer</span></div>
+
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
